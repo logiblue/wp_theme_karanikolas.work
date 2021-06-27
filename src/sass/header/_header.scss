@@ -1,0 +1,22 @@
+#header-wrapper {
+
+    .custom-logo {
+        height: 60px;
+        width: auto;
+        transition: height 0.5s;
+
+        svg {
+            height: 100%;
+        }
+
+    }
+
+    &.header-scrolled {
+
+        .custom-logo {
+            height: 50px;
+        }
+    
+    }
+
+}
